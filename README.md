@@ -1,7 +1,5 @@
 # ft_irc
 
-## General usage
-
 ### installation
 
 ```bash
@@ -29,4 +27,3 @@ Voici quelques fonctionnalités supplémentaires que j'ai ajouté au serveur afi
 • L’envoi de fichier.
 
 • Un bot.
-# ft_irc
