@@ -24,13 +24,13 @@ Here are some additional features I’ve added to make the server even closer to
 git clone git@github.com:louakedwayl/irc_serv.git
 ```
 
-## installation
+## Installation
 
 ```bash
 make
 ````
 
-## start the server
+## Start the server
 ```
 ./ircserv PORT PASSWORD
 ```
