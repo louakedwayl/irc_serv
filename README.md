@@ -1,5 +1,9 @@
 # ft_irc
 
+<p align="center">
+  <img src="images/irc_serv_layout.png" alt="Pong Layout">
+</p>
+
 ### installation
 
 ```bash
