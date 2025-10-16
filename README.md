@@ -12,7 +12,7 @@ The goal of this project is to reproduce the behavior of an IRC server.
 
 Here are some additional features I’ve added to make the server even closer to a real IRC server:
 
-• File transfer.
+• File transfer.\
 • A bot.
 
 <p align="center">
