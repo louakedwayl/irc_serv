@@ -1,33 +1,36 @@
 # ft_irc
 
+## Introduction
+
+Internet Relay Chat is a text-based communication protocol on the Internet.
+It is mainly used for instant messaging in the form of group discussions through chat channels,
+but it can also be used for direct communication between two people.
+IRC clients connect to IRC servers in order to access these channels.
+IRC servers are interconnected to form networks.
+
+The goal of this project is to reproduce the behavior of an IRC server.
+
+Here are some additional features I’ve added to make the server even closer to a real IRC server:
+
+• File transfer.
+• A bot.
+
 <p align="center">
   <img src="images/irc_serv_layout.png" alt="Pong Layout">
 </p>
 
-### installation
+## Clone the repository
+```bash
+git clone git@github.com:louakedwayl/irc_serv.git
+```
+
+## installation
 
 ```bash
 make
 ````
 
-### start the server
+## start the server
 ```
 ./ircserv PORT PASSWORD
 ```
-
-## Introduction
-
-Internet Relay Chat est un protocole de communication textuel sur Internet. Il sert
-à la communication instantanée principalement sous la forme de discussions en groupe
-par l’intermédiaire de canaux de discussion, mais peut aussi être utilisé pour de la com-
-munication directe entre deux personnes.
-Les clients IRC se connectent à des serveurs IRC afin d’accéder à des canaux. Les
-serveurs IRC sont connectés entre eux afin de créer des réseaux.
-
-L’objectif de ce projet est de reproduire le fonctionnement d’un serveur IRC.
-
-Voici quelques fonctionnalités supplémentaires que j'ai ajouté au serveur afin qu’il soit encore plus proche d’un vrai serveur IRC :
-
-• L’envoi de fichier.
-
-• Un bot.
