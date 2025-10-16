@@ -28,9 +28,29 @@ git clone git@github.com:louakedwayl/irc_serv.git
 
 ```bash
 make
-````
+```
 
 ## Start the server
-```
+```bash
 ./ircserv PORT PASSWORD
+```
+
+## To connect with irssi
+```bash
+/connect 127.0.0.1 PORT PASSWORD
+```
+
+## To connect with netcat
+```bash
+nc -C 127.0.0.1 PORT PASSWORD
+```
+
+## To join channel with irssi
+```bash
+/join #channel
+```
+
+## To send message
+```bash
+/msg #general Hello While
 ```
